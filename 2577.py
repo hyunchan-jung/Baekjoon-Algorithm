@@ -1,0 +1,6 @@
+N = []
+[N.append(int(input())) for i in range(3)]
+N = N[0] * N[1] * N[2]
+cnt = []
+[cnt.append(str(N).count(str(i))) for i in range(10)]
+[print(i) for i in cnt] 
