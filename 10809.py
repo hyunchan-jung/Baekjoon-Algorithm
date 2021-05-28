@@ -1,7 +1,6 @@
 S = input()
 res = []
 alp = 'abcdefghijklmnopqrstuvwxyz'
-
 for i in alp:
     try:
         res.append(S.index(i))
